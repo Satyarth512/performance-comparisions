@@ -11,12 +11,12 @@ echo ""
 cd "$(dirname "$0")"
 
 echo "=== PYTHON RESULTS ==="
-python3 python_performance_test.py
+python3 python/python_performance_test.py
 echo ""
 
 echo "=== JAVA RESULTS ==="
-javac JavaPerformanceTest.java
-java JavaPerformanceTest
+javac java/JavaPerformanceTest.java
+java -cp java JavaPerformanceTest
 echo ""
 
 echo "=========================================="

@@ -34,15 +34,15 @@ echo ""
 
 # Compile and run Java test
 echo "========== JAVA TEST =========="
-if javac CPUIntensiveTest.java; then
-    java CPUIntensiveTest
+if javac java/JavaPerformanceTest.java; then
+    java -cp java JavaPerformanceTest
     echo ""
 else
     echo "Failed to compile Java code"
 fi
 
 echo "========== PYTHON TEST =========="
-$PYTHON_CMD cpu_intensive_test.py
+$PYTHON_CMD python/python_performance_test.py
 
 echo ""
 echo "============================================"

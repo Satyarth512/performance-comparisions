@@ -12,12 +12,12 @@ echo ""
 cd "$(dirname "$0")"
 
 echo "=== PYTHON LARGE-SCALE RESULTS ==="
-python3 large_python_test.py
+python3 python/large_python_test.py
 echo ""
 
 echo "=== JAVA LARGE-SCALE RESULTS ==="
-javac LargeJavaTest.java
-java LargeJavaTest
+javac java/LargeJavaTest.java
+java -cp java LargeJavaTest
 echo ""
 
 echo "================================================"

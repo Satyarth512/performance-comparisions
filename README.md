@@ -51,8 +51,8 @@ Java Threading:                1ms (2.00x speedup)
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/java-python-multithreading-benchmark
-cd java-python-multithreading-benchmark
+git clone https://github.com/Satyarth512/performance-comparisions
+cd performance-comparisions
 ```
 
 2. **Run all benchmarks:**
@@ -75,7 +75,7 @@ javac JavaPerformanceTest.java && java JavaPerformanceTest
 ## 📁 Repository Structure
 
 ```
-java-python-multithreading-benchmark/
+performance-comparisions/
 ├── README.md                     # This file
 ├── run_all_tests.sh             # Master test runner
 ├── run_comparison.sh            # Quick comparison script
